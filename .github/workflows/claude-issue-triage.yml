@@ -41,4 +41,6 @@ jobs:
                - Un enfoque de solución sugerido, sin implementarlo todavía, que sirva como punto de partida para el trabajo de código posterior.
                - Si falta información para diagnosticar con confianza, dilo explícitamente en el comentario y pide los datos que faltan en vez de adivinar.
 
+               El cuerpo del comentario debe estar escrito en formato Markdown válido, del tipo que GitHub renderiza correctamente (encabezados con `#`, listas con `-`, bloques de código con backticks triples o inline con backtick simple para nombres de archivos/funciones, negrita con `**...**`, etc.), de modo que se muestre bien formateado en la interfaz de GitHub y no como texto plano.
+
             No modifiques el código del repositorio ni el título o cuerpo del issue. Tu única salida debe ser: labels aplicadas/quitadas y el comentario de diagnóstico.
